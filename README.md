@@ -9,7 +9,7 @@
 *** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
 *** https://www.markdownguide.org/basic-syntax/#reference-style-links
 -->
-[![Forks][forks-shield]][https://github.com/itsmejayd/filter-duplicate-lines/forks]
+[![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
 [![MIT License][license-shield]][license-url]
@@ -20,7 +20,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/itsmejayd/repo_name">
+  <a href="https://github.com/itsmejayd/filter-duplicate-lines">
     <img src="images/logo.png" alt="Logo" width="80" height="80">
   </a>
 
@@ -29,14 +29,14 @@
   <p align="center">
     project_description
     <br />
-    <a href="https://github.com/itsmejayd/repo_name"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/itsmejayd/filter-duplicate-lines"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/itsmejayd/repo_name">View Demo</a>
+    <a href="https://github.com/itsmejayd/filter-duplicate-lines">View Demo</a>
     ·
-    <a href="https://github.com/itsmejayd/repo_name/issues/new?labels=bug&template=bug-report---.md">Report Bug</a>
+    <a href="https://github.com/itsmejayd/filter-duplicate-lines/issues/new?labels=bug&template=bug-report---.md">Report Bug</a>
     ·
-    <a href="https://github.com/itsmejayd/repo_name/issues/new?labels=enhancement&template=feature-request---.md">Request Feature</a>
+    <a href="https://github.com/itsmejayd/filter-duplicate-lines/issues/new?labels=enhancement&template=feature-request---.md">Request Feature</a>
   </p>
 </div>
 
@@ -75,7 +75,7 @@
 
 [![Product Name Screen Shot][product-screenshot]](https://example.com)
 
-Here's a blank template to get started: To avoid retyping too much info. Do a search and replace with your text editor for the following: `itsmejayd`, `repo_name`, `twitter_handle`, `linkedin_username`, `email_client`, `email`, `project_title`, `project_description`
+Here's a blank template to get started: To avoid retyping too much info. Do a search and replace with your text editor for the following: `itsmejayd`, `filter-duplicate-lines`, `twitter_handle`, `linkedin_username`, `email_client`, `email`, `project_title`, `project_description`
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -116,7 +116,7 @@ TODO: include somewhere in here a note about like "Note: I added .python-version
 1. Get a free API Key at [https://example.com](https://example.com)
 2. Clone the repo
    ```sh
-   git clone https://github.com/itsmejayd/repo_name.git
+   git clone https://github.com/itsmejayd/filter-duplicate-lines.git
    ```
 3. Install NPM packages
    ```sh
@@ -150,7 +150,7 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 - [ ] Feature 3
     - [ ] Nested Feature
 
-See the [open issues](https://github.com/itsmejayd/repo_name/issues) for a full list of proposed features (and known issues).
+See the [open issues](https://github.com/itsmejayd/filter-duplicate-lines/issues) for a full list of proposed features (and known issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -188,7 +188,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 Your Name - [@twitter_handle](https://twitter.com/twitter_handle) - email@email_client.com
 
-Project Link: [https://github.com/itsmejayd/repo_name](https://github.com/itsmejayd/repo_name)
+Project Link: [https://github.com/itsmejayd/filter-duplicate-lines](https://github.com/itsmejayd/filter-duplicate-lines)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -207,14 +207,14 @@ Project Link: [https://github.com/itsmejayd/repo_name](https://github.com/itsmej
 
 <!-- MARKDOWN LINKS & IMAGES TODO: add my names in these-->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[forks-shield]: https://img.shields.io/github/forks/itsmejayd/repo_name.svg?style=for-the-badge
-[forks-url]: https://github.com/itsmejayd/repo_name/network/members
-[stars-shield]: https://img.shields.io/github/stars/itsmejayd/repo_name.svg?style=for-the-badge
-[stars-url]: https://github.com/itsmejayd/repo_name/stargazers
-[issues-shield]: https://img.shields.io/github/issues/itsmejayd/repo_name.svg?style=for-the-badge
-[issues-url]: https://github.com/itsmejayd/repo_name/issues
-[license-shield]: https://img.shields.io/github/license/itsmejayd/repo_name.svg?style=for-the-badge
-[license-url]: https://github.com/itsmejayd/repo_name/blob/master/LICENSE.txt
+[forks-shield]: https://img.shields.io/github/forks/itsmejayd/filter-duplicate-lines.svg?style=for-the-badge
+[forks-url]: https://github.com/itsmejayd/filter-duplicate-lines/network/members
+[stars-shield]: https://img.shields.io/github/stars/itsmejayd/filter-duplicate-lines.svg?style=for-the-badge
+[stars-url]: https://github.com/itsmejayd/filter-duplicate-lines/stargazers
+[issues-shield]: https://img.shields.io/github/issues/itsmejayd/filter-duplicate-lines.svg?style=for-the-badge
+[issues-url]: https://github.com/itsmejayd/filter-duplicate-lines/issues
+[license-shield]: https://img.shields.io/github/license/itsmejayd/filter-duplicate-lines.svg?style=for-the-badge
+[license-url]: https://github.com/itsmejayd/filter-duplicate-lines/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/josephdwyer20
 [product-screenshot]: images/screenshot.png
