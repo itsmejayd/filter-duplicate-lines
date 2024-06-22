@@ -87,28 +87,57 @@
 <!-- GETTING STARTED -->
 ## Getting Started
 
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
+This guide provides instructions on setting up and using the "Duplicate Line Remover" tool locally.
 
 ### Prerequisites
 
-This is an example of how to list things you need to use the software and how to install them.
-TODO: add stuff here? venv? flask? note about python version?
+To run this project, you'll need:
+- Python (version 3.11.0 recommended)
+- Flask (for the web application)
+
+Note: I've added `.python-version` to `.gitignore` to ensure compatibility across different Python versions. For reference, the version used during development was 3.11.0.
+
+You may want to set up a virtual environment (venv) to manage dependencies, for exmaple:
+```sh
+python -m venv env
+source env/bin/activate  # Activate the virtual environment
+```
+
+Install Flask:
+```sh
+pip install flask
+```
 
 ### Installation
 
-TODO: include somewhere in here a note about like "Note: I added .python-version to the .gitignore so that you can try to use this on any python version, but FYI the version I used was 3.11.0.
-1. Clone the repo
+   Clone the repo
    ```sh
    git clone https://github.com/itsmejayd/filter-duplicate-lines.git
+   cd filter-duplicate-lines
    ```
-
-
+   
 
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-TODO: add usage details
+1. Removing Duplicate Lines:
+  - Use `remove_duplicates(input_file, output_file)` function from `filter_duplicate_lines.py` to process your input file and generate a cleaned output file without duplicate lines.
+
+  Example usage:
+  ```python
+  from filter_duplicate_lines import remove_duplicates
+  
+  input_file = "your_input_file_name.txt"
+  output_file = "cleaned_output.txt"
+  remove_duplicates(input_file, output_file)
+  ```
+
+2. Using the Web Application:
+
+  - Start the Flask application by running python app.py in your terminal.
+  - Access the application in your web browser at http://localhost:5000.
+  - Upload a text file or paste text into the text box, then click download button to remove duplicates and download the cleaned file.
+
 
 
 
