@@ -24,10 +24,10 @@
     <img src="images/logo.png" alt="Logo" width="80" height="80">
   </a>
 
-<h3 align="center">project_title</h3>
+<h3 align="center">Duplicate Line Remover</h3>
 
   <p align="center">
-    project_description
+    A Python tool with a Flask web interface designed to remove duplicate entries from line break delimited lists while maintaining the relative position of blank lines in the input text. Originally created to clean up OneTab exports (maintaining tab groups), it can be used for any text list with similar requirements.
     <br />
     <a href="https://github.com/itsmejayd/filter-duplicate-lines"><strong>Explore the docs »</strong></a>
     <br />
@@ -60,7 +60,6 @@
       </ul>
     </li>
     <li><a href="#usage">Usage</a></li>
-    <li><a href="#roadmap">Roadmap</a></li>
     <li><a href="#contributing">Contributing</a></li>
     <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
@@ -74,8 +73,6 @@
 ## About The Project
 
 [![Product Name Screen Shot][product-screenshot]](https://example.com)
-
-Here's a blank template to get started: To avoid retyping too much info. Do a search and replace with your text editor for the following: `itsmejayd`, `filter-duplicate-lines`, `twitter_handle`, `linkedin_username`, `email_client`, `email`, `project_title`, `project_description`
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -91,6 +88,7 @@ Here's a blank template to get started: To avoid retyping too much info. Do a se
 * [![Laravel][Laravel.com]][Laravel-url]
 * [![Bootstrap][Bootstrap.com]][Bootstrap-url]
 * [![JQuery][JQuery.com]][JQuery-url]
+* [![Flask][flask.palletsprojects.com]][Flask-url]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -105,26 +103,14 @@ To get a local copy up and running follow these simple example steps.
 ### Prerequisites
 
 This is an example of how to list things you need to use the software and how to install them.
-* npm
-  ```sh
-  npm install npm@latest -g
-  ```
+TODO: add stuff here? venv? flask? note about python version?
 
 ### Installation
 
 TODO: include somewhere in here a note about like "Note: I added .python-version to the .gitignore so that you can try to use this on any python version, but FYI the version I used was 3.11.0.
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
+1. Clone the repo
    ```sh
    git clone https://github.com/itsmejayd/filter-duplicate-lines.git
-   ```
-3. Install NPM packages
-   ```sh
-   npm install
-   ```
-4. Enter your API in `config.js`
-   ```js
-   const API_KEY = 'ENTER YOUR API';
    ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -134,23 +120,7 @@ TODO: include somewhere in here a note about like "Note: I added .python-version
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
-
-_For more examples, please refer to the [Documentation](https://example.com)_
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
-<!-- ROADMAP -->
-## Roadmap
-
-- [ ] Feature 1
-- [ ] Feature 2
-- [ ] Feature 3
-    - [ ] Nested Feature
-
-See the [open issues](https://github.com/itsmejayd/filter-duplicate-lines/issues) for a full list of proposed features (and known issues).
+TODO: add usage details
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -158,8 +128,6 @@ See the [open issues](https://github.com/itsmejayd/filter-duplicate-lines/issues
 
 <!-- CONTRIBUTING -->
 ## Contributing
-
-Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
 
 If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
 Don't forget to give the project a star! Thanks again!
@@ -169,6 +137,8 @@ Don't forget to give the project a star! Thanks again!
 3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
 4. Push to the Branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
+
+See the [open issues](https://github.com/itsmejayd/filter-duplicate-lines/issues) for a full list of proposed features (and known issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -186,7 +156,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [@twitter_handle](https://twitter.com/twitter_handle) - email@email_client.com
+Joseph Dwyer - [@jdlately](https://twitter.com/jdlately) - josephdwyer20@gmail.com
 
 Project Link: [https://github.com/itsmejayd/filter-duplicate-lines](https://github.com/itsmejayd/filter-duplicate-lines)
 
@@ -197,15 +167,13 @@ Project Link: [https://github.com/itsmejayd/filter-duplicate-lines](https://gith
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
 
-* []()
-* []()
-* []()
+* [OneTab](https://www.one-tab.com/) Browser Extension: A wonderful tool I love, inspired me to make my tool specifically to increase OneTab's functionality and to share it for others to use.
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 
-<!-- MARKDOWN LINKS & IMAGES TODO: add my names in these-->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 [forks-shield]: https://img.shields.io/github/forks/itsmejayd/filter-duplicate-lines.svg?style=for-the-badge
 [forks-url]: https://github.com/itsmejayd/filter-duplicate-lines/network/members
@@ -217,7 +185,7 @@ Project Link: [https://github.com/itsmejayd/filter-duplicate-lines](https://gith
 [license-url]: https://github.com/itsmejayd/filter-duplicate-lines/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/josephdwyer20
-[product-screenshot]: images/screenshot.png
+[product-screenshot]: images/flask_web_app.png
 [Next.js]: https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white
 [Next-url]: https://nextjs.org/
 [React.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
@@ -233,4 +201,6 @@ Project Link: [https://github.com/itsmejayd/filter-duplicate-lines](https://gith
 [Bootstrap.com]: https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white
 [Bootstrap-url]: https://getbootstrap.com
 [JQuery.com]: https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white
-[JQuery-url]: https://jquery.com 
+[JQuery-url]: https://jquery.com
+[flask.palletsprojects.com]: https://img.shields.io/badge/Flask-0769AD?style=for-the-badge&logo=Flask&logoColor=white
+[Flask-url]: https://flask.palletsprojects.com/en/3.0.x/
