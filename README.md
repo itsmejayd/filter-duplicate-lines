@@ -96,11 +96,11 @@ To run this project, you'll need:
 Note: I've added `.python-version` to `.gitignore` to ensure compatibility across different Python versions. For reference, the version used during development was 3.11.0.
 
 You may want to set up a virtual environment (venv) to manage dependencies, for exmaple:
-```console
+```sh
 python -m venv env
 ```
 ```sh
-source env/bin/activate  # Activate the virtual environment
+source env/bin/activate
 ```
 
 Install Flask:
@@ -110,7 +110,7 @@ pip install flask
 
 ### Installation
 
-   Clone the repo
+   Clone the repo:
    ```sh
    git clone https://github.com/itsmejayd/filter-duplicate-lines.git
    ```
