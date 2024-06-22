@@ -74,8 +74,6 @@
 
 [![Product Name Screen Shot][product-screenshot]](https://example.com)
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 
 
 ### Built With
@@ -83,8 +81,6 @@
 
 * [![Python][Python.org]][Python-url]
 * [![Flask][flask.palletsprojects.com]][Flask-url]
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 
@@ -107,16 +103,12 @@ TODO: include somewhere in here a note about like "Note: I added .python-version
    git clone https://github.com/itsmejayd/filter-duplicate-lines.git
    ```
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 
 
 <!-- USAGE EXAMPLES -->
 ## Usage
 
 TODO: add usage details
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 
@@ -134,16 +126,12 @@ Don't forget to give the project a star! Thanks again!
 
 See the [open issues](https://github.com/itsmejayd/filter-duplicate-lines/issues) for a full list of proposed features (and known issues).
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 
 
 <!-- LICENSE -->
 ## License
 
-Distributed under the MIT License. See `LICENSE.txt` for more information.
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+Distributed under the MIT License. See `LICENSE` for more information.
 
 
 
@@ -151,10 +139,6 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 ## Contact
 
 Joseph Dwyer - [@jdlately](https://twitter.com/jdlately) - josephdwyer20@gmail.com
-
-Project Link: [https://github.com/itsmejayd/filter-duplicate-lines](https://github.com/itsmejayd/filter-duplicate-lines)
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 
@@ -165,8 +149,6 @@ Project Link: [https://github.com/itsmejayd/filter-duplicate-lines](https://gith
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
 
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 [forks-shield]: https://img.shields.io/github/forks/itsmejayd/filter-duplicate-lines.svg?style=for-the-badge
