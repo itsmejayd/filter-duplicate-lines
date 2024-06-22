@@ -98,6 +98,8 @@ Note: I've added `.python-version` to `.gitignore` to ensure compatibility acros
 You may want to set up a virtual environment (venv) to manage dependencies, for exmaple:
 ```sh
 python -m venv env
+```
+```sh
 source env/bin/activate  # Activate the virtual environment
 ```
 
