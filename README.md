@@ -96,7 +96,7 @@ To run this project, you'll need:
 Note: I've added `.python-version` to `.gitignore` to ensure compatibility across different Python versions. For reference, the version used during development was 3.11.0.
 
 You may want to set up a virtual environment (venv) to manage dependencies, for exmaple:
-```sh
+```console
 python -m venv env
 ```
 ```sh
