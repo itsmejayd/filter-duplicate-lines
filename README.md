@@ -88,7 +88,10 @@
 * [![Laravel][Laravel.com]][Laravel-url]
 * [![Bootstrap][Bootstrap.com]][Bootstrap-url]
 * [![JQuery][JQuery.com]][JQuery-url]
+* [![Python][Python.org]][Python-url]
 * [![Flask][flask.palletsprojects.com]][Flask-url]
+* [![HTML5][HTML5.org]][HTML5-url]
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -202,5 +205,9 @@ Project Link: [https://github.com/itsmejayd/filter-duplicate-lines](https://gith
 [Bootstrap-url]: https://getbootstrap.com
 [JQuery.com]: https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white
 [JQuery-url]: https://jquery.com
-[flask.palletsprojects.com]: https://img.shields.io/badge/Flask-0769AD?style=for-the-badge&logo=Flask&logoColor=white
+[Python.org]: https://img.shields.io/badge/Python-FFD43B?style=for-the-badge&logo=python&logoColor=blue
+[Python-url]: https://www.python.org/
+[Flask.palletsprojects.com]: https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white
 [Flask-url]: https://flask.palletsprojects.com/en/3.0.x/
+[HTML5.org]: https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white
+[HTML5-url]: https://html5.org/
