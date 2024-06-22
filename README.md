@@ -9,7 +9,7 @@
 *** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
 *** https://www.markdownguide.org/basic-syntax/#reference-style-links
 -->
-[![Forks][forks-shield]][forks-url]
+[![Forks][forks-shield]][https://github.com/itsmejayd/filter-duplicate-lines/forks]
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
 [![MIT License][license-shield]][license-url]
@@ -112,6 +112,7 @@ This is an example of how to list things you need to use the software and how to
 
 ### Installation
 
+TODO: include somewhere in here a note about like "Note: I added .python-version to the .gitignore so that you can try to use this on any python version, but FYI the version I used was 3.11.0.
 1. Get a free API Key at [https://example.com](https://example.com)
 2. Clone the repo
    ```sh
