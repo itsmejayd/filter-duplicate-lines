@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Duplicate Line Remover</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        h1 {
+            color: #333;
+        }
+        textarea {
+            width: 100%;
+            height: 100px;
+            margin-bottom: 10px;
+            padding: 5px;
+            font-family: Arial, sans-serif;
+            font-size: 14px;
+        }
+        .error {
+            color: red;
+        }
+    </style>
+</head>
+<body>    
+    <!-- Display error message if any -->
+    {% if error %}
+    <p class="error">{{ error }}</p>
+    {% endif %}
+    <h2>Duplicate Line Remover</h2>
+    <br>This tool was originally created to provide the ability to remove duplicate entries from a <a href="https://www.one-tab.com/">OneTab</a> export. Import a text file or paste that text below for a cleaned output file that also maintains the tab groups's "structure" (maintains the existence and location of all the blank lines relative to non-duplicate entries). The output file can then be imported back into OneTab and the tab groups will remain grouped as they were, minus the duplicate entires.</br>
+    <br>Feel free to use it for any list where each entry occupies one line (i.e. where the entries are line break delimited), to remove (exact) duplicate entries while maintaining the list's "structure" (structure only in the sense that is described above).</br>
+    <br>I had nearly 4,000 entries in my OneTab and about half of them were duplicates. It would have taken me a lot of time and effort to remove them manually, so I spent possibly more time and effort to remove them automatically... &#128579; </br>
+    <br>But maybe I'll save you some time &#128578; </br>
+    <br></bodybr>
+    <form method="post" action="/upload" enctype="multipart/form-data">
+        <textarea name="text" placeholder="Paste your text here..."></textarea>
+        <br>Or:</br>
+        <br>
+        <input type="file" name="file">
+        <br>
+        <br>Then: <br>
+        <br>
+        <input type="submit" value="Download cleaned text file">
+    </form>
+</body>
+</html>
