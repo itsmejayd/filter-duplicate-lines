@@ -1,6 +1,4 @@
-<!-- Improved compatibility of back to top link: See: https://github.com/othneildrew/Best-README-Template/pull/73 TODO: change this to my link -->
 <a name="readme-top"></a>
-
 <!-- PROJECT SHIELDS -->
 <!--
 *** I'm using markdown "reference style" links for readability.
@@ -113,6 +111,8 @@ pip install flask
    Clone the repo
    ```sh
    git clone https://github.com/itsmejayd/filter-duplicate-lines.git
+   ```
+   ```sh
    cd filter-duplicate-lines
    ```
    
@@ -129,6 +129,7 @@ pip install flask
   
   input_file = "your_input_file_name.txt"
   output_file = "cleaned_output.txt"
+  
   remove_duplicates(input_file, output_file)
   ```
 
