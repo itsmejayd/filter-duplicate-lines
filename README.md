@@ -70,7 +70,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+[![Product Name Screen Shot][product-screenshot]](https://github.com/itsmejayd/filter-duplicate-lines)
 
 
 
@@ -117,7 +117,7 @@ pip install flask
    ```sh
    cd filter-duplicate-lines
    ```
-   
+
 
 <!-- USAGE EXAMPLES -->
 ## Usage
@@ -128,10 +128,10 @@ pip install flask
   Example usage:
   ```python
   from filter_duplicate_lines import remove_duplicates
-  
+
   input_file = "your_input_file_name.txt"
   output_file = "cleaned_output.txt"
-  
+
   remove_duplicates(input_file, output_file)
   ```
 
