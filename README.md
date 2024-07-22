@@ -172,7 +172,7 @@ Distributed under the MIT License. See `LICENSE` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Joseph Dwyer - [@jdlately](https://twitter.com/jdlately) - josephdwyer20@gmail.com
+Joseph Dwyer - josephdwyer20@gmail.com - [Twitter](https://twitter.com/jdlately)
 
 
 
